@@ -10,6 +10,7 @@ public class GameSystem : MonoBehaviour
     public GameObject timerUI;
     public GameObject gameOverScreen;
     private TextMeshProUGUI timeText;
+    
     /*EXPERIMENT DATA*/
     public float timeRemaining = 5;
     private bool timerIsRunning = false;
@@ -17,6 +18,7 @@ public class GameSystem : MonoBehaviour
     private float reactionTime = 0;
     private bool reactionTimerIsRunning = false;
 
+    public GameObject spawningHaptic;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +51,7 @@ public class GameSystem : MonoBehaviour
                 gameOverScreen.SetActive(true);
                 DisplayTime(reactionTime);
                 reactionTimerIsRunning =false;
+                spawningHaptic.SetActive(true);
             }
         }
     }
