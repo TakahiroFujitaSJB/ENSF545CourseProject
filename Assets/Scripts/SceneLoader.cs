@@ -11,4 +11,17 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(sceneNumber);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
 }
