@@ -51,15 +51,16 @@ public class GameSystem : MonoBehaviour
                 gameOverScreen.SetActive(true);
                 DisplayTime(reactionTime);
                 reactionTimerIsRunning =false;
-                spawningHaptic.SetActive(true);
+
             }
         }
     }
 
       private void TimeRunOut()
     {
-        flashingDisplay.SetActive(true);
+       // flashingDisplay.SetActive(true);
         reactionTimerIsRunning = true;
+        spawningHaptic.SetActive(true);
     }
 
  
