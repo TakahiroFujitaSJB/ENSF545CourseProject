@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: fb9086a79c050a84dae5a2aa384a72d0
   - enabled: 1
-    path: Assets/Scenes/Instruction.unity
-    guid: b7387798f7c17bd44814266331f7bc6e
+    path: Assets/Scenes/Instruction1.unity
+    guid: 72e63446996fb424da5030b82bd02aa8
   - enabled: 1
     path: Assets/Scenes/Experiment NoHaptic.unity
     guid: f7cf68ad6cefe8e459db871e6eb02331
+  - enabled: 1
+    path: Assets/Scenes/Instruction2.unity
+    guid: b7387798f7c17bd44814266331f7bc6e
   - enabled: 1
     path: Assets/Scenes/Experiment Haptic.unity
     guid: 6981261394fee6c4b82d106e433b52ee
