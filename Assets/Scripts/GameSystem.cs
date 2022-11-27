@@ -58,7 +58,7 @@ public class GameSystem : MonoBehaviour
 
       private void TimeRunOut()
     {
-       // flashingDisplay.SetActive(true);
+        flashingDisplay.SetActive(true);
         reactionTimerIsRunning = true;
         spawningHaptic.SetActive(true);
     }
