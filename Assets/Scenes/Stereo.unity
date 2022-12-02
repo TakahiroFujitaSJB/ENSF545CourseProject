@@ -830,7 +830,7 @@ Transform:
   - {fileID: 947568406}
   - {fileID: 555566010}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &555566009
 GameObject:
@@ -1784,6 +1784,7 @@ GameObject:
   - component: {fileID: 1219393081}
   - component: {fileID: 1219393080}
   - component: {fileID: 1219393079}
+  - component: {fileID: 1219393082}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1856,6 +1857,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1219393082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219393078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9876cfb3adbd1164ea775505b5aebf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swapLR: 0
+  userIPD: 66
+  virtualIPD: 66
+  matchUserIPD: 1
+  PPI: 96
+  pixelPitch: 0.265
+  hFOV: 90
+  GuiVisible: 1
+  GuiKey: 9
+  SwapLRKey: 268
+  increaseFovKey: 269
+  decreaseFovKey: 270
+  parentCam: 1
+  cameraPrefab: {fileID: 0}
+  setMatrixDirectly: 1
 --- !u!1 &1224079810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,7 +1991,7 @@ GameObject:
   - component: {fileID: 1228422720}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Touchable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2374,7 +2402,7 @@ MonoBehaviour:
   flashingDisplay: {fileID: 1276373515}
   timerUI: {fileID: 1378482419}
   gameOverScreen: {fileID: 267023496}
-  timeRemaining: 5
+  timeRemaining: 14
   spawningHaptic: {fileID: 538748128}
 --- !u!4 &1457837607
 Transform:

@@ -499,7 +499,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Setup: With your lefthand, hover over the spacebar key and use your right
     hand to control the haptic device. \n\nTask: \nUse the haptic device to drag
-    the cycinder to all the stars.\nWhen there is a sudden pop up, click the space
+    the cycinder to all the circles.\nWhen there is a sudden pop up, click the space
     bar as soon as possible."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -749,7 +749,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1160,6 +1160,7 @@ GameObject:
   - component: {fileID: 1930221535}
   - component: {fileID: 1930221534}
   - component: {fileID: 1930221533}
+  - component: {fileID: 1930221536}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1232,3 +1233,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930221536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930221532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9876cfb3adbd1164ea775505b5aebf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swapLR: 0
+  userIPD: 66
+  virtualIPD: 66
+  matchUserIPD: 1
+  PPI: 96
+  pixelPitch: 0.265
+  hFOV: 90
+  GuiVisible: 1
+  GuiKey: 9
+  SwapLRKey: 268
+  increaseFovKey: 269
+  decreaseFovKey: 270
+  parentCam: 1
+  cameraPrefab: {fileID: 0}
+  setMatrixDirectly: 1

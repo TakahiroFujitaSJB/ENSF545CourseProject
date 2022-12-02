@@ -816,14 +816,14 @@ RectTransform:
   m_GameObject: {fileID: 474628840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 358725304}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: 317}
+  m_AnchoredPosition: {x: 0.000022888, y: 230}
   m_SizeDelta: {x: 998, y: 93.2036}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &474628842
@@ -1594,7 +1594,7 @@ MonoBehaviour:
   flashingDisplay: {fileID: 1276373515}
   timerUI: {fileID: 1378482419}
   gameOverScreen: {fileID: 267023496}
-  timeRemaining: 30
+  timeRemaining: 15
   spawningHaptic: {fileID: 1142430010}
 --- !u!4 &1457837607
 Transform:

@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Haptic.unity
     guid: 6981261394fee6c4b82d106e433b52ee
   - enabled: 0
+    path: Assets/Scenes/Menu3D.unity
+    guid: 393224a39a4e823449f69ca2201fb58e
+  - enabled: 0
+    path: Assets/Scenes/Instruction 3D.unity
+    guid: 94ee2a80f259ecb4fb2842ceca1bb2b4
+  - enabled: 0
     path: Assets/Scenes/Stereo.unity
     guid: 8e51ce5af06c42548a1ab8608ed84537
   m_configObjects: {}
